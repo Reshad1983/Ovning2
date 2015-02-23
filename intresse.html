@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+    <title>Justified Nav Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+		<div class="btn-group btn-group-justified" role="group" aria-label="...">
+			  <div class="btn-group" role="group">
+				<a href="html-plain.html"><button type="button" class="btn btn-primary">Home</button></a>
+			  </div>
+			  <div class="btn-group" role="group">
+				<a href="intresse.html"><button type="button" class="btn btn-primary">Mina Intresse</button></a>
+			  </div>
+			  <div class="btn-group" role="group">
+				<a href="planer.html"><button type="button" class="btn btn-primary">Mina Planer</button></a>
+			  </div>
+		</div>
+		<script charset="utf-8" src="js/intresseJS.js"></script>
+      <!-- Jumbotron -->
+      <div class="jumbotron">
+        <h1>Mina Intresse</h1>
+        <p class="lead">Här kommer lite om jag tycker om och göra antingen på fritiden eller som arbete</p>
+      </div>
+
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-lg-8">
+          <h2 >Intresse på firtid</h2>
+			<div id="removebtn">
+				<p id="firtiden" ></p>
+				<button onClick="newClass.myFunction_1();" type="button" 
+				class="btn btn-info" id="intresseBtn">Visa texten</button>	
+			</div>
+			
+			
+        </div>
+        <div class="col-lg-8">
+          <h2>Intresse på arbete</h2>
+			<div id="paragraphShow">
+			  <p id="arbete" ></p>
+			  <button onClick="newClass.myFunction_2();" type="button" 
+			  class="btn btn-info" id="arbeteBtn">Visa texten</button>	
+			</div>	
+          
+       </div>
+      </div>
+
+      <!-- Site footer -->
+	<footer class="blog-footer panel-footer text-center row bg-success">
+		<address>
+			resahm11@student.hh.se<br>
+			Högskolan i Halmstad
+		</address>
+		<p><a href="#">Back to top</a></p>
+	</footer>
+
+    </div> <!-- /container -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
